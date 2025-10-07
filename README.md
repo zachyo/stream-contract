@@ -23,7 +23,7 @@ This protocol allows users to create streams where tokens are automatically dist
 - `refuel(stream-id, amount)` - Add tokens to existing stream
 - `withdraw(stream-id)` - Withdraw available tokens (recipient only)
 - `refund(stream-id)` - Claim unused tokens after stream ends (sender only)
-- `update-details(stream-id, payment-per-block, timeframe, signer, signature)` - Modify stream with consent
+- `update-details(stream-id, payment-per-block, timeframe, signer, signature)` - Modify stream with consent.
 
 ### Read-only Functions
 
